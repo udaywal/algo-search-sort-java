@@ -26,7 +26,7 @@ public class BinarySearch {
         return ;
       }
    
-      int mid = left + (right - left)/2 ; // (left+right)/2
+      int mid = left + (right - left)/2 ; // (left+right)/2 // we does it for big numbers (https://ai.googleblog.com/2006/06/extra-extra-read-all-about-it-nearly.html)
    
       if (arr[mid] == num) {
         System.out.println(num + " is found at the index "+ mid);
