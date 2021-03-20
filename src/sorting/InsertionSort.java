@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class InsertionSort {
 
     public static void sort(int[] arr) {
