@@ -1,6 +1,6 @@
 /* Time & space complexity = O((n-m)m) & O(1) */
 
-public class numberOfSubArrays {
+public class NumberOfSubArrays {
 
     public static int numberOfSubarrays(int[] arr, int n, int d, int m){
 
